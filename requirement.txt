@@ -1,2 +1,6 @@
 openai
 dotenv
+moviepy
+streamlit
+requests
+fastapi
