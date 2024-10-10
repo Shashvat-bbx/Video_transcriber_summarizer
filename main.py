@@ -28,7 +28,7 @@ def processor(filename):
     client = OpenAI()
 
     # Used the OpenAI Whisper model API for speech to text covertion
-    # Did run the model locally using hugging face due to hardware contrainsts and long inference time
+    # Did not run the model locally using hugging face due to hardware contrainsts and long inference time
     audio_file= open(f"Converted_audio/{filename[:-4]}.mp3", "rb")
     transcription = client.audio.transcriptions.create(
     model="whisper-1", 
