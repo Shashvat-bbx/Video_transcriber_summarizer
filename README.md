@@ -2,8 +2,7 @@
 
 This application allows users to upload a video through a Streamlit interface. Once uploaded, the backend processes the video by extracting audio, generating a transcript using OpenAI's Whisper API, and then creating a summary using OpenAI's GPT-4 model. The application is built using Streamlit for the frontend and FastAPI for the backend.
 
-# Demo Video Link
-https://drive.google.com/file/d/16g-JRlaBOuDskOykYM7IF4UprrGmPJom/view?usp=sharing 
+
 
 ## Features
 - Upload a video file through the Streamlit interface.
